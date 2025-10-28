@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
+    <xs:simpleType name="name">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="100" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="phoneType">
+        <xs:restriction base="xs:string">
+            <!-- phone pattern: 000-000-0000 -->
+            <xs:pattern value="\d{3}-\d{3}-\d{4}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="zipType">
+        <xs:restriction base="xs:string">
+            <!-- 5 digits -->
+            <xs:pattern value="\d{5}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="stateCodeType">
+        <xs:restriction base="xs:string">
+            <xs:length value="2" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Address type -->
+    <xs:complexType name="AddressType">
+        <xs:sequence>
+            <xs:element name="number" type="xs:positiveInteger" />
+            <xs:element name="street" type="xs:string" />
+            <xs:element name="city" type="xs:string" />
+            <xs:element name="state" type="stateCodeType" />
+            <xs:element name="zip" type="zipType" />
+            <xs:element name="nearestAirport" type="xs:string" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Hotel type -->
+    <xs:complexType name="HotelType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="phone" type="phoneType" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="address" type="AddressType" />
+            <xs:element name="rating" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                        <xs:minInclusive value="0" />
+                        <xs:maxInclusive value="5" />
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Root element -->
+    <xs:element name="hotels">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="hotel" type="HotelType" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
