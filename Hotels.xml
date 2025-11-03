@@ -1,134 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="Hotels.xsd">
-    <hotel>
-    <name>Arizona Biltmore</name>
-    <phone>602-955-6600</phone>
-    <address>
-        <number>2400</number>
-        <street>E Missouri Ave</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85016</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.5</rating>
-    </hotel>
-    <hotel>
-    <name>JW Marriott Phoenix Desert Ridge Resort and Spa</name>
-    <phone>480-293-5000</phone>
-    <address>
-        <number>5350</number>
-        <street>E Marriott Dr</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85054</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.7</rating>
-    </hotel>
-    <hotel>
-    <name>Kimpton Hotel Palomar Phoenix</name>
-    <phone>602-253-6633</phone>
-    <address>
-        <number>2</number>
-        <street>E Jefferson St</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.4</rating>
-    </hotel>
-    <hotel>
-    <name>Hyatt Regency Phoenix</name>
-    <phone>602-252-1234</phone>
-    <address>
-        <number>122</number>
-        <street>N 2nd St</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.3</rating>
-    </hotel>
-    <hotel>
-    <name>FOUND:RE Phoenix Hotel</name>
-    <phone>602-875-8000</phone>
-    <address>
-        <number>1100</number>
-        <street>N Central Ave</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.5</rating>
-    </hotel>
-    <hotel>
-    <name>Hilton Garden Inn Phoenix Downtown</name>
-    <phone>602-343-0006</phone>
-    <address>
-        <number>15</number>
-        <street>E Monroe St</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.2</rating>
-    </hotel>
-    <hotel>
-    <name>Renaissance Phoenix Downtown Hotel</name>
-    <phone>602-333-0000</phone>
-    <address>
-        <number>100</number>
-        <street>N 1st St</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.4</rating>
-    </hotel>
-    <hotel>
-    <name>Cambria Hotel Downtown Phoenix Convention Center</name>
-    <phone>602-675-3500</phone>
-    <address>
-        <number>222</number>
-        <street>E Portland St</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.3</rating>
-    </hotel>
-    <hotel>
-    <name>Hampton Inn and Suites Phoenix Downtown</name>
-    <phone>602-710-1240</phone>
-    <address>
-        <number>77</number>
-        <street>E Polk St</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.5</rating>
-    </hotel>
-    <hotel>
-    <name>Residence Inn by Marriott Phoenix Downtown</name>
-    <phone>602-603-2000</phone>
-    <address>
-        <number>132</number>
-        <street>S Central Ave</street>
-        <city>Phoenix</city>
-        <state>AZ</state>
-        <zip>85004</zip>
-        <nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
-    </address>
-    <rating>4.6</rating>
-    </hotel>
+	<hotel>
+		<name>Arizona Biltmore</name>
+		<phone>602-955-6600</phone>
+		<phone>123-123-1234</phone>
+		<address>
+			<number>2400</number>
+			<street>E Missouri Ave</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85016</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.5</rating>
+	</hotel>
+	<hotel>
+		<name>JW Marriott Phoenix Desert Ridge Resort and Spa</name>
+		<phone>480-293-5000</phone>
+		<phone>123-123-1234</phone>
+		<address>
+			<number>5350</number>
+			<street>E Marriott Dr</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85054</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.7</rating>
+	</hotel>
+	<hotel>
+		<name>Kimpton Hotel Palomar Phoenix</name>
+		<phone>602-253-6633</phone>
+		<address>
+			<number>2</number>
+			<street>E Jefferson St</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.4</rating>
+	</hotel>
+	<hotel>
+		<name>Hyatt Regency Phoenix</name>
+		<phone>602-252-1234</phone>
+		<address>
+			<number>122</number>
+			<street>N 2nd St</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.3</rating>
+	</hotel>
+	<hotel>
+		<name>FOUND:RE Phoenix Hotel</name>
+		<phone>602-875-8000</phone>
+		<address>
+			<number>1100</number>
+			<street>N Central Ave</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.5</rating>
+	</hotel>
+	<hotel>
+		<name>Hilton Garden Inn Phoenix Downtown</name>
+		<phone>602-343-0006</phone>
+		<address>
+			<number>15</number>
+			<street>E Monroe St</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.2</rating>
+	</hotel>
+	<hotel>
+		<name>Renaissance Phoenix Downtown Hotel</name>
+		<phone>602-333-0000</phone>
+		<address>
+			<number>100</number>
+			<street>N 1st St</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.4</rating>
+	</hotel>
+	<hotel>
+		<name>Cambria Hotel Downtown Phoenix Convention Center</name>
+		<phone>602-675-3500</phone>
+		<address>
+			<number>222</number>
+			<street>E Portland St</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.3</rating>
+	</hotel>
+	<hotel>
+		<name>Hampton Inn and Suites Phoenix Downtown</name>
+		<phone>602-710-1240</phone>
+		<address>
+			<number>77</number>
+			<street>E Polk St</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.5</rating>
+	</hotel>
+	<hotel>
+		<name>Residence Inn by Marriott Phoenix Downtown</name>
+		<phone>602-603-2000</phone>
+		<address>
+			<number>132</number>
+			<street>S Central Ave</street>
+			<city>Phoenix</city>
+			<state>AZ</state>
+			<zip>85004</zip>
+			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
+		</address>
+		<rating>4.6</rating>
+	</hotel>
 </hotels>
