@@ -105,7 +105,6 @@
 			<zip>85004</zip>
 			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
 		</address>
-		<rating>4.3</rating>
 	</hotel>
 	<hotel>
 		<name>Hampton Inn and Suites Phoenix Downtown</name>
@@ -131,6 +130,5 @@
 			<zip>85004</zip>
 			<nearestAirport>Phoenix Sky Harbor International Airport</nearestAirport>
 		</address>
-		<rating>4.6</rating>
 	</hotel>
 </hotels>
